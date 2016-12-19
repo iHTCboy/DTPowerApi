@@ -1,0 +1,21 @@
+//
+//  DTApiCaller.h
+//  $Project.name
+//
+//  Created by _author on $date.
+//  Copyright (c) _companyname. All rights reserved.
+//
+
+$Api.macros
+
+@class ASIHTTPRequest;
+@class DTApiWrapper;
+
+@interface DTApiCaller : NSObject
+{
+    DTApiWrapper *_dtApiWrapper;
+}
+
+$Api.decalres
+
+@end

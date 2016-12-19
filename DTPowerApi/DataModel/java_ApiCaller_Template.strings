@@ -1,0 +1,101 @@
+//
+//  DTApiWrapper.h
+//  $Project.name
+//
+//  Created by _author on $date.
+//  Copyright (c) _companyname. All rights reserved.
+//
+
+package com.dtapi.api;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.utils.URLEncodedUtils;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.HttpResponse;
+import org.apache.http.entity.mime.MultipartEntity;
+import java.io.File;
+import java.io.UnsupportedEncodingException;
+
+public class DTApiCaller {
+    
+$Api.macros
+    
+    DTApiWrapper dtApiWrapper;
+	
+	public DTApiWrapper getDtApiWrapper() {
+		return dtApiWrapper;
+	}
+    
+	public void setDtApiWrapper(DTApiWrapper dtApiWrapper) {
+		this.dtApiWrapper = dtApiWrapper;
+	}
+    
+    $Api.implementations
+    
+public HttpResponse callApi(String apiName, String baseUrl, Object getParams, Object postEntity, String method)
+{
+    ArrayList<BasicNameValuePair> getParamList = (ArrayList<BasicNameValuePair>)getParams;
+    MultipartEntity postData = (MultipartEntity)postEntity;
+    
+    String getParamString = URLEncodedUtils.format(getParamList, "UTF-8");
+    String requestUrlString = baseUrl + "?" + getParamString;
+    
+    HttpClient httpClient = new DefaultHttpClient();
+    
+    //has post
+    if (method.equals("POST"))
+    {
+        try {
+            HttpPost postMethod = new HttpPost(requestUrlString);
+            postMethod.setEntity(postData);
+            
+            HttpResponse response = httpClient.execute(postMethod); 
+            
+            return response;
+            //              Log.i(TAG, "apiName = " + apiName);
+            //			    Log.i(TAG, "resCode = " + response.getStatusLine().getStatusCode());
+            //			    Log.i(TAG, "result = " + EntityUtils.toString(response.getEntity(), "utf-8"));
+        } catch (ClientProtocolException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+    //all get
+    else
+    {
+        HttpGet getMethod = new HttpGet(requestUrlString);
+        try {
+            HttpResponse response = httpClient.execute(getMethod); 
+            
+            return response;
+            //              Log.i(TAG, "apiName = " + apiName);
+            //			    Log.i(TAG, "resCode = " + response.getStatusLine().getStatusCode());
+            //			    Log.i(TAG, "result = " + EntityUtils.toString(response.getEntity(), "utf-8"));
+        } catch (ClientProtocolException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();  
+        }  
+    }
+    
+    return null;
+}
+
+/*
+ * Method for running demo
+ * */
+$Api.run_demo_method
+}

@@ -1,0 +1,38 @@
+//
+//  DTApiWrapper.m
+//  $Project.name
+//
+//  Created by _author on $date.
+//  Copyright (c) _companyname. All rights reserved.
+//
+
+#import "DTApiWrapper.h"
+
+@implementation DTApiWrapper
+
++(id)sharedInstance
+{
+    static id _sharedInstance = nil;
+    if (!_sharedInstance) {
+        _sharedInstance = [[[self class] alloc] init];
+    }
+    
+    return _sharedInstance;
+}
+
+-(NSDictionary*)wrapCommonParamsWithGetParams:(NSDictionary*)getParams postDatas:(NSDictionary*)postDatas
+{
+    NSMutableDictionary *combindedGetParams = [NSMutableDictionary dictionaryWithDictionary:getParams];
+    NSMutableDictionary *combindedPostDatas = [NSMutableDictionary dictionaryWithDictionary:postDatas];
+    
+    NSDictionary *commonParams = [self commonParams];
+    [combindedGetParams addEntriesFromDictionary:[commonParams objectForKey:@"getParams"]];
+    [combindedPostDatas addEntriesFromDictionary:[commonParams objectForKey:@"postDatas"]];
+    
+    return [NSDictionary dictionaryWithObjectsAndKeys:combindedGetParams, @"getParams", combindedPostDatas, @"postDatas", nil];
+}
+
+
+$Api.implementations
+
+@end

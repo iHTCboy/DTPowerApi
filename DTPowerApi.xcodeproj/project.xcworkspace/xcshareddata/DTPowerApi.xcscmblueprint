@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12F1E03AC01621F734D4E90F69A75EDD3CDB3AF3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4094a913-4731-44c5-812e-3df8e7ecc311++546" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4094a913-4731-44c5-812e-3df8e7ecc311++546" : 0,
+    "12F1E03AC01621F734D4E90F69A75EDD3CDB3AF3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1E81D0CE-97C3-474D-B9B7-239CA78C7F7B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4094a913-4731-44c5-812e-3df8e7ecc311++546" : "DTPowerApi_v1.0\/",
+    "12F1E03AC01621F734D4E90F69A75EDD3CDB3AF3" : "DTPowerApi\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DTPowerApi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DTPowerApi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iHTCboy\/DTPowerApi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12F1E03AC01621F734D4E90F69A75EDD3CDB3AF3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/subversion.assembla.com\/svn\/lekscustomers",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4094a913-4731-44c5-812e-3df8e7ecc311++546"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+//
+//  DTApiWrapper.h
+//  $Project.name
+//
+//  Created by _author on $date.
+//  Copyright (c) _companyname. All rights reserved.
+//
+
+package com.dtapi.api;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.entity.mime.content.FileBody;
+import org.apache.http.entity.mime.content.StringBody;
+import org.apache.http.entity.mime.MultipartEntity;
+import org.apache.http.protocol.HTTP;
+import java.io.File;
+import java.nio.charset.Charset;
+import java.io.UnsupportedEncodingException;
+
+public class DTApiWrapper {
+    $Api.implementations
+}

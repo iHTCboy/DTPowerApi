@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>api4</key>
+	<string>[
+  &quot;1&quot;,
+  &quot;2&quot;,
+  &quot;3&quot;,
+  &quot;4&quot;,
+  {
+    &quot;b&quot; : [
+      &quot;123&quot;,
+      &quot;321&quot;,
+      &quot;222&quot;
+    ],
+    &quot;NewString-2&quot; : &quot;null&quot;,
+    &quot;NewNumber-3&quot; : null
+  }
+]</string>
+	<key>api3</key>
+	<string>{
+  &quot;a&quot; : {
+    &quot;name&quot; : &quot;leks&quot;,
+    &quot;gender&quot; : &quot;1&quot;
+  },
+  &quot;d&quot; : &quot;hahahaha&quot;,
+  &quot;e&quot; : 123,
+  &quot;array&quot; : [
+    {
+      &quot;woca&quot; : &quot;caca&quot;
+    },
+    {
+      &quot;woca&quot; : &quot;heihei&quot;
+    }
+  ]
+}</string>
+	<key>api2</key>
+	<string>{
+  &quot;Name&quot; : &quot;woca&quot;,
+  &quot;Mate&quot; : {
+    &quot;Name&quot; : &quot;1&quot;,
+    &quot;Parent&quot; : &quot;parent&quot;,
+    &quot;Phone&quot; : 123213
+  },
+  &quot;Girl&quot; : [
+    {
+      &quot;Name&quot; : &quot;woqu&quot;,
+      &quot;Sex&quot; : &quot;1&quot;
+    },
+    {
+      &quot;Name&quot; : &quot;haha&quot;,
+      &quot;Sex&quot; : &quot;0&quot;
+    }
+  ]
+}</string>
+	<key>api1</key>
+	<string>{&quot;total&quot;:525,&quot;record&quot;:[{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;1562&quot;,&quot;h_name&quot;:&quot;\u4fdd\u5229\u7f57\u5170\u9999\u8c37&quot;,&quot;h_pic&quot;:&quot;http:\/\/img10.house365.com\/njnewhouse\/2012\/12\/24\/135631512650d7b9f63f0fe.jpg&quot;,&quot;h_price&quot;:&quot;11800\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85&quot;,&quot;h_project_address&quot;:&quot;\u6816\u971e\u533a\u4ed9\u6797\u6e56\u4ee5\u53171\u53f7\uff08\u4e1c\u81f3\u6e56\u5317\u4e1c\u8def\uff1b\u897f\u81f3\u9ad8\u79d1\u8363\u5883\uff1b\u5317\u81f3\u671b\u6708\u8def\u4e07\u79d1\u9879\u76ee\uff1b\u5357\u81f3\u7eac\u5730\u8def\uff09&quot;,&quot;h_long&quot;:&quot;118.981753885746&quot;,&quot;h_lat&quot;:&quot;32.129255293171155&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;506068&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;1101&quot;,&quot;h_name&quot;:&quot;\u9f13\u697c1929&quot;,&quot;h_pic&quot;:&quot;http:\/\/img8.house365.com\/njnewhouse\/2009\/11\/23\/12589474854b0a039d8436a.jpg&quot;,&quot;h_price&quot;:&quot;25000\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85\u3001\u5546\u4e1a&quot;,&quot;h_project_address&quot;:&quot;\u9ad8\u697c\u95e824\u201434\u53f7\uff0c\u4e1c\u90bb\u4f4f\u5b85\u5c0f\u533a\uff0c\u5357\u5230\u5ce8\u5d4b\u8def\uff0c\u897f\u81f3\u9ad8\u697c\u95e8\u8def&quot;,&quot;h_long&quot;:&quot;118.786700963974&quot;,&quot;h_lat&quot;:&quot;32.0627235909514&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;196052&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;1100&quot;,&quot;h_name&quot;:&quot;\u56fd\u4fe1\u6765\u51e4\u8857\u4e00\u53f7&quot;,&quot;h_pic&quot;:&quot;http:\/\/img8.house365.com\/njnewhouse\/2011\/04\/30\/13041631854dbbf37177d17.jpg&quot;,&quot;h_price&quot;:&quot;31000\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85\u3001\u522b\u5885&quot;,&quot;h_project_address&quot;:&quot;\u96c6\u5e86\u95e8\u6765\u51e4\u88571\u53f7&quot;,&quot;h_long&quot;:&quot;118.769355118275&quot;,&quot;h_lat&quot;:&quot;32.0192678044266&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;234911&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;1419&quot;,&quot;h_name&quot;:&quot;\u4e2d\u7cae\u5f69\u4e91\u5c45&quot;,&quot;h_pic&quot;:&quot;http:\/\/img7.house365.com\/njnewhouse\/2011\/05\/08\/thumb\/13048241754dc6096feea79.jpg&quot;,&quot;h_price&quot;:&quot;12800\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85&quot;,&quot;h_project_address&quot;:&quot;\u5357\u4eac\u5e02\u6c5f\u5b81\u533a\u5409\u5370\u5927\u90532009\u53f7&quot;,&quot;h_long&quot;:&quot;118.829433917999&quot;,&quot;h_lat&quot;:&quot;31.8947980258727&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;424032&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;1162&quot;,&quot;h_name&quot;:&quot;\u878d\u4fa8\u4e16\u5bb6&quot;,&quot;h_pic&quot;:&quot;http:\/\/img3.house365.com\/njnewhouse\/2010\/09\/02\/thumb\/12833973894c7f170d33964.jpg&quot;,&quot;h_price&quot;:&quot;9800\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85\u3001\u5546\u4e1a&quot;,&quot;h_project_address&quot;:&quot;\u6c5f\u5b81\u79e3\u9675\u8857\u9053\u5174\u82d1\u8def18\u53f7\uff08\u4e49\u4e4c\u5c0f\u5546\u54c1\u57ce\u5357\u4fa7\uff09&quot;,&quot;h_long&quot;:&quot;118.875846862793&quot;,&quot;h_lat&quot;:&quot;31.9345957170258&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;614767&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;1516&quot;,&quot;h_name&quot;:&quot;\u534e\u83c1\u6c34\u82d1&quot;,&quot;h_pic&quot;:&quot;http:\/\/img8.house365.com\/njnewhouse\/2011\/04\/16\/thumb\/13029511624da974facdddb.jpg&quot;,&quot;h_price&quot;:&quot;8000\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85&quot;,&quot;h_project_address&quot;:&quot;\u6c5f\u5b81\u533a\u79e3\u9675\u8857\u9053\u6587\u9e3f\u8def9\u53f7\uff08\u5f18\u666f\u5927\u9053\u4ee5\u4e1c\u3001\u5b66\u5341\u4e00\u8def\u4ee5\u5357\uff09&quot;,&quot;h_long&quot;:&quot;118.89905333518982&quot;,&quot;h_lat&quot;:&quot;31.898621446190365&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;386956&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;157&quot;,&quot;h_name&quot;:&quot;\u6b66\u5937\u7eff\u6d32&quot;,&quot;h_pic&quot;:&quot;http:\/\/img10.house365.com\/njnewhouse\/2008\/10\/13\/122387450148f2d7c514b44.jpg&quot;,&quot;h_price&quot;:&quot;10000\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85\u3001\u5546\u4e1a&quot;,&quot;h_project_address&quot;:&quot;\u6c5f\u5b81\u79d1\u5b66\u56ed\u5929\u5143\u4e2d\u8def99\u53f7\uff08\u5929\u5143\u4e2d\u8def\u4e0e\u79e6\u6dee\u6cb3\u4ea4\u53c9\u4e1c\u5357\u89d2\uff09&quot;,&quot;h_long&quot;:&quot;118.838478326797&quot;,&quot;h_lat&quot;:&quot;31.9301637256066&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;1007448&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;857&quot;,&quot;h_name&quot;:&quot;\u5929\u6cfd\u82d1&quot;,&quot;h_pic&quot;:&quot;http:\/\/img10.house365.com\/njnewhouse\/2012\/12\/19\/135590392650d173b6d1279.jpg&quot;,&quot;h_price&quot;:&quot;11000\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85\u3001\u522b\u5885&quot;,&quot;h_project_address&quot;:&quot;\u6c5f\u5b81\u533a\u7af9\u5c71\u5357\u8def588\u53f7&quot;,&quot;h_long&quot;:&quot;118.85497123003&quot;,&quot;h_lat&quot;:&quot;31.9144622405907&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;445872&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;1418&quot;,&quot;h_name&quot;:&quot;\u738b\u5b50\u516c\u9986&quot;,&quot;h_pic&quot;:&quot;http:\/\/img2.house365.com\/njnewhouse\/2010\/06\/01\/12753715274c04a007b428e.jpg&quot;,&quot;h_price&quot;:&quot;11000\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85&quot;,&quot;h_project_address&quot;:&quot;\u6c5f\u5b81\u4e5d\u9f99\u6e56\u6bb7\u534e\u885736\u53f7\uff08\u9a8f\u666f\u534e\u5ead\u5bf9\u9762\uff09&quot;,&quot;h_long&quot;:&quot;118.83171916007995&quot;,&quot;h_lat&quot;:&quot;31.917945620002385&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;188531&quot;,&quot;h_fav_num&quot;:0},{&quot;h_type&quot;:&quot;house&quot;,&quot;h_id&quot;:&quot;1405&quot;,&quot;h_name&quot;:&quot;\u57ce\u5e02\u4e4b\u5149\u56fd\u9645\u516c\u5bd3&quot;,&quot;h_pic&quot;:&quot;http:\/\/img9.house365.com\/njnewhouse\/2010\/12\/13\/thumb\/12922288284d05d8dc30f73.jpg&quot;,&quot;h_price&quot;:&quot;11000\u5143\/\u33a1&quot;,&quot;h_channel&quot;:&quot;\u4f4f\u5b85\u3001\u5546\u4e1a&quot;,&quot;h_project_address&quot;:&quot;\u6c5f\u5b81\u79e3\u9675\u8857\u9053\u5929\u5143\u4e1c\u8def388\u53f7\uff08\u6c5f\u5b81\u4e49\u4e4c\u5c0f\u5546\u54c1\u57ce\u4e1c\u4fa7\uff09&quot;,&quot;h_long&quot;:&quot;118.8777431845665&quot;,&quot;h_lat&quot;:&quot;31.93947134364244&quot;,&quot;h_salestat_str&quot;:&quot;\u5728\u552e&quot;,&quot;h_hits_num&quot;:&quot;222006&quot;,&quot;h_fav_num&quot;:0}]}</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+//
+//  $Bean.beanName.java
+//  $Project.name
+//
+//  Created by _author on $date.
+//  Copyright (c) _companyname. All rights reserved.
+//
+package com.dtapi.beans;
+
+$Bean.subbeans.headers.import
+
+public class $Bean.beanName {
+    $Bean.properties.vars
+    
+    $Bean.properties.synthesize
+}

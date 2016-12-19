@@ -1,0 +1,24 @@
+//
+//  $Bean.beanName.h
+//  $Project.name
+//
+//  Created by _author on $date.
+//  Copyright (c) _companyname. All rights reserved.
+//
+
+$Bean.comment
+
+#import <Foundation/Foundation.h>
+#import "DTApiBaseBean.h"
+$Bean.quote
+
+@interface $Bean.beanName : NSObject
+{$Bean.properties.vars
+}
+
+$Bean.properties.property
+
+-(id)initWithDictionary:(NSDictionary*)dict;
+-(NSDictionary*)dictionaryValue;
+@end
+ 

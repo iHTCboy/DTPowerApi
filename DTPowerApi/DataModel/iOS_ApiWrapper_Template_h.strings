@@ -1,0 +1,13 @@
+//
+//  DTApiWrapper.h
+//  $Project.name
+//
+//  Created by _author on $date.
+//  Copyright (c) _companyname. All rights reserved.
+//
+
+@interface DTApiWrapper : NSObject
+$Api.decalres
+
++(id)sharedInstance;
+@end

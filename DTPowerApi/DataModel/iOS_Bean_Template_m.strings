@@ -1,0 +1,38 @@
+//
+//  $Bean.beanName.m
+//  $Project.name
+//
+//  Created by _author on $date.
+//  Copyright (c) _companyname. All rights reserved.
+//  
+
+$Bean.comment
+
+#import "$Bean.beanName.h"
+#import "DTApiBaseBean.h"
+$Bean.subbeans.headers.import
+
+@implementation $Bean.beanName
+$Bean.properties.synthesize
+
+-(void)dealloc
+{$Bean.properties.release
+    [super dealloc];
+}
+
+-(id)initWithDictionary:(NSDictionary*)dict
+{
+    if (self = [super init])
+    {$Bean.properties.assign
+    }
+    
+    return self;
+}
+
+-(NSDictionary*)dictionaryValue
+{
+    NSMutableDictionary *md = [NSMutableDictionary dictionary];
+    $Bean.properties.export
+    return md;
+}
+@end
